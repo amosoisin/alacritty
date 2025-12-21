@@ -1,0 +1,17 @@
+[general]
+live_config_reload = true
+import = [
+    "./alacritty-theme/themes/zenburn.toml"
+]
+
+[window]
+startup_mode = "Maximized"
+
+[font]
+normal = { family = "HackGen Console NF", style = "Regular" }
+
+[selection]
+save_to_clipboard = true
+
+[terminal]
+shell = "wsl --distribution-id {ae587f41-6403-442a-9fc9-c0df99f43602} -- docker exec -it main /bin/zsh"
