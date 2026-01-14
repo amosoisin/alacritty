@@ -1,0 +1,7 @@
+[general]
+import = [
+    "./alacritty.toml"
+]
+
+[terminal]
+shell = "wsl -d NixOS --cd ~"
