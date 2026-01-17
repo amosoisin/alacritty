@@ -4,4 +4,4 @@ import = [
 ]
 
 [terminal]
-shell = "wsl -d Ubuntu -- docker exec -it main /bin/zsh"
+shell = "wsl -d Ubuntu --cd ~"
