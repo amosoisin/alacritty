@@ -1,7 +1,7 @@
 [general]
 live_config_reload = true
 import = [
-    "./alacritty-theme/themes/zenburn.toml"
+    "./alacritty-theme/themes/catppuccin_macchiato.toml"
 ]
 
 [window]
